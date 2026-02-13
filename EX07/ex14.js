@@ -9,7 +9,7 @@ function testarEscopo() {
 
 testarEscopo();
 console.log(app);
-// console.log(versao); // Erro: a variável versao tem escopo local e só existe dentro da função testarEscopo
+// console.log(versao); // Dá erro porque versao só existe dentro da função
 
 // Parte B — Callback
 function executarTarefa(nomeTarefa, callback) {
@@ -17,7 +17,7 @@ function executarTarefa(nomeTarefa, callback) {
   callback();
 }
 
-executarTarefa("Backup", () => console.log("Tarefa concluída!"));
+executarTarefa("Backup", () => console.log("Pronto!"));
 
 // Parte C — Async
 async function buscarPerfil() {

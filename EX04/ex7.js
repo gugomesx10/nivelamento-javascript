@@ -1,10 +1,10 @@
 let tarefas = ["Estudar JavaScript", "Fazer exercícios", "Revisar código"];
 
-console.log("Primeira tarefa:", tarefas[0]);
-console.log("Última tarefa:", tarefas[2]);
+console.log("Primeira coisa a fazer:", tarefas[0]);
+console.log("Última coisa:", tarefas[2]);
 
-console.log("Total de tarefas:", tarefas.length);
+console.log("Tem", tarefas.length, "tarefas pra hoje");
 
 tarefas.push("Fazer commit no Git");
 
-console.log("Novo total de tarefas:", tarefas.length);
+console.log("Agora são", tarefas.length, "tarefas");

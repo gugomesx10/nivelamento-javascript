@@ -9,7 +9,7 @@ console.log("Marca:", veiculo.marca);
 console.log("Modelo:", veiculo.modelo);
 
 console.log("Ano:", veiculo["ano"]);
-console.log("Disponível:", veiculo["disponivel"]);
+console.log("Tá disponível?", veiculo["disponivel"]);
 
 veiculo.cor = "Prata";
 console.log("Cor:", veiculo.cor);

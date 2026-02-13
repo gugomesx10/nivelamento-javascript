@@ -5,4 +5,4 @@ while (contagem >= 1) {
   contagem--;
 }
 
-console.log("Lançamento!");
+console.log("Lançou!");
